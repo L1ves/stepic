@@ -18,12 +18,12 @@ H часов в сутки. Если режим сна Ани удовлетво
 внимательно прочитайте условие задания.
 
 # put your python code here
-A = int (input())
-B = int (input())
-C = int (input())
-if (C >= A) and (C < B) and (A <= B):
+a = int (input())
+b = int (input())
+c = int (input())
+if (c >= a) and (c < b) and (a <= b):
     print('Это нормально')
-if (C < A) and (A <= B):
+if (c < a) and (a <= b):
     print('Недосып')
-if (C > B) and (A <= B):
+if (c > b) and (a <= b):
 print('Пересып')
